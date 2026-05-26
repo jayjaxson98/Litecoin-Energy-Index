@@ -1,0 +1,15 @@
+/**
+ * ContractRegistry.ts — Protocol constants and configuration
+ */
+
+export const PROTOCOL_CONSTANTS = {
+  HARD_CAP: 21_000_000,
+  DEFAULT_EXCHANGE_RATE: 125,
+  DEFAULT_FEE_BPS: 30,
+  MIN_ENERGY_PRICE: 10_000,
+  MAX_ENERGY_PRICE: 1_000_000,
+  BPS_DENOMINATOR: 10_000,
+  MAX_FEE_BPS: 500,
+  LITOSHI_PER_LTC: 100_000_000,
+  BASELINE_ENERGY_PRICE: 0.142, // USD/kWh
+} as const;
